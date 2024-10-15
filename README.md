@@ -1,6 +1,6 @@
 ## Rotary Encoder HW040 test with RP2040  
 ### Note  
-- I'm using RP2040 board.Change your board in platformio.ini file
+- I'm using RP2040 board.Change your board in [platformio.ini](https://github.com/pangcrd/RotaryEncoderHW040/blob/main/platformio.ini) file
 - Base on https://github.com/mo-thunderz/RotaryEncoder  
 - About RP2040 any GPIO can use as interrupt function. Some other board you need search for datasheet to know gpio pins support interrupt function.    
 
