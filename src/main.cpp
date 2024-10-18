@@ -1,6 +1,6 @@
 #include <encoderRead.h>
 
-EncoderRead Encoder(22, 27, 26);  // GPIO pinA,pinB,Button
+EncoderRead Encoder(27, 22, 26);  // GPIO pinA,pinB,Button
 
 void setup() {
   Serial.begin(115200);
